@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="style.css">
 */
 
-body {
+.body {
   max-width: 680px;
   margin: 40px auto;
   padding: 0 16px;
@@ -115,3 +115,12 @@ th {
   color: #ffffff;
   background: #3e34d3;
 }
+    table {
+        border-collapse: collapse;
+        margin: 0 auto;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 10px;
+    }
